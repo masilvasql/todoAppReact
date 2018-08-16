@@ -2,10 +2,10 @@ const webpack = require('webpack')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 
 module.exports = {
-    entry:'./scr/index.jsx',
+    entry:'./src/index.jsx',
     output:{
         path: __dirname + '/public',
-        filname:'./app.js'
+        filname:'./bundle.js'
     },
     devServer:{
         port:8080,
